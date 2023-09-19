@@ -1,9 +1,9 @@
 def inputNameProduct():
-    nameProduct = input('ชื่อสินค้า : ')
-    return nameProduct
+    return input('ชื่อสินค้า : ')
+    
 def inputPriceProduct():
-    priceProduct = float(input('ราคาสินค้า : '))
-    return priceProduct
+    return float(input('ราคาสินค้า : '))
+    
 def showScoreStudent(nameProduct,priceProduct):
     vatProduct = priceProduct * (7/100)
     print(f'ชื่อสินค้า : {nameProduct} ราคาสินค้า: {priceProduct} ราคาภาษีของสินค้า : {vatProduct:.2f}')

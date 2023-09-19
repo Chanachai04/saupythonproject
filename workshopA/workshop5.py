@@ -5,8 +5,8 @@ def inputEmployee():
     return idEmp, nameEmp, salaryEmp
 
 def calSalaryEmployee(salaryEmp):
-    salary = salaryEmp-(salaryEmp*7/100)-500
-    return salary
+    return salaryEmp - (salaryEmp * 7/100) - 500
+
 def showSalaryEmployee(idEmp,nameEmp,salaryEmp,salary):
     print(f'รหัสพนักงาน : {idEmp} ชื่อพนักงาน : {nameEmp} เงินเดือนปกติ:{salaryEmp} เงินเดือนสุทธิ : {salary}')
 

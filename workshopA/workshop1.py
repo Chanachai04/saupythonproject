@@ -3,8 +3,8 @@ def inputPriceAndProduct():
     price = float(input('ราคาสินค้า : '))
     return product,price
 def calPriceProduct(price):
-    priceProduct = price + (price *10/100)
-    return priceProduct
+    return price + (price *10/100)
+     
 def showPriceProduct(product,priceProduct):
     print(f'ชื่อสินค้า {product} ราคาขายสินค้า {priceProduct} ')
 

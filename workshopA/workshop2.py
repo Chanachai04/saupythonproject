@@ -7,8 +7,8 @@ def inputScoreStudent():
     return idStudent,nameStudent,score1,score2,score3
 
 def calScoreStudent(score1,score2,score3):
-    avgScore = (score1+score2+score3)/3
-    return avgScore
+    return (score1+score2+score3)/3
+    
 
 def showScoreStudent(idStudent,nameStudent,avgScore):
     print(f'รหัสนักเรียน : {idStudent} ชื่อนักเรียน : {nameStudent} คะแนนเฉลี่ยของนักเรียน : {avgScore}')
