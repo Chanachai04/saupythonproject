@@ -6,10 +6,8 @@ def inputStudentInfo():
 
 def checkStudentGrade(studentId, studentName, studentGrade):
     if studentGrade > 2.00:
-        print('---------------------------------------------')
         return f"นักเรียนรหัส {studentId} ชื่อ {studentName} ได้เกรดเฉลี่ย {studentGrade} สอบผ่าน"
     else:
-        print('---------------------------------------------')
         return f"นักเรียนรหัส {studentId} ชื่อ {studentName} ได้เกรดเฉลี่ย {studentGrade} สอบไม่ผ่าน"
 
 def showStudentGrade():
